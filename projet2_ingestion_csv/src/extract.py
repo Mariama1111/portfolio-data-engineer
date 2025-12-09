@@ -3,7 +3,7 @@
 import pandas as pd
 
 def load_sales_data():
-    url = "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/sales.csv"
+    url = "https://raw.githubusercontent.com/plotly/datasets/master/sales_success.csv"
     df = pd.read_csv(url)
     return df
 
