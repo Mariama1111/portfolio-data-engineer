@@ -90,9 +90,13 @@ Git
 pip install -r requirements.txt
 ________________________________
 ▶️ Exécuter le Projet 1
+
 cd projet1_pipeline_modele/src
+
 python extract.py
+
 python transform.py
+
 python model.py
 
 
@@ -106,9 +110,13 @@ models/model.pkl
 
 __________________________
 ▶️ Exécuter le Projet 2
+
 cd projet2_ingestion_csv/src
+
 python extract.py
+
 python transform.py
+
 python load.py
 
 
