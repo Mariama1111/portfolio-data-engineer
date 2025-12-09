@@ -6,7 +6,7 @@ def load_final_data():
     df = pd.read_csv("../data/processed/sales_clean.csv")
 
     # Ajouter une statistique
-    df["avg_units_sold_global"] = df["Units Sold"].mean()
+    df["avg_units_sold_global"] = df["sales"].mean()
 
     df.to_csv("../data/final/final_sales.csv", index=False)
     print("Chargement terminé, fichier final créé !")
