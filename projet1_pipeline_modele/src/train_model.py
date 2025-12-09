@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 
 def train_model():
-    df = pd.read_csv("../data/processed/data_clean.csv")
+    df = pd.read_csv("../data/processed/Housing_clean.csv")
 
     # selection 
     X = df.drop("target", axis=1)
