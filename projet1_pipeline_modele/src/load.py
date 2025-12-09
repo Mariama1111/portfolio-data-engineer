@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 def generate_predictions():
-    df = pd.read_csv("../data/processed/data_clean.csv")
+    df = pd.read_csv("../data/processed/housing_clean.csv")
     model = joblib.load("../models/model.pkl")
 
     X = df.drop("target", axis=1)
