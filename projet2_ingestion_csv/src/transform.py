@@ -1,25 +1,20 @@
-"""Script : supprime lignes vides ; transforme les dates ;  corrige les colonnes numériques ; sauvegarde les données propres"""
+"""Script : nettoie les valeurs manquantes ; renomme les colonnes ; sauvegarde les données propres"""
 
 import pandas as pd
 
-def transform_sales(df):
-    # Supprimer les lignes avec valeurs manquantes
+def clean_sales_data():
+    # Charger le fichier extrait
+    df = pd.read_csv("../data/raw/sales.csv")
+
+    # Renommer les colonnes pour être cohérent
+    df.columns = [col.lower().replace(" ", "_") for col in df.columns]
+
+    # Supprimer les lignes vides
     df = df.dropna()
-    
-    # Convertir la colonne 'date' en format datetime
-    if 'date' in df.columns:
-        df['date'] = pd.to_datetime(df['date'], errors='coerce')
-    
-    # Corriger les types numériques
-    numeric_cols = ['total', 'quantity']
-    for col in numeric_cols:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors='coerce')
-    
-    return df
+
+    # Sauvegarder
+    df.to_csv("../data/processed/sales_clean.csv", index=False)
+    print("Données transformées et sauvegardées !")
 
 if __name__ == "__main__":
-    df = pd.read_csv("../data/raw/sales.csv")
-    df_clean = transform_sales(df)
-    df_clean.to_csv("../data/cleaned/sales_clean.csv", index=False)
-    print("CSV transformé et sauvegardé !")
+    clean_sales_data()
