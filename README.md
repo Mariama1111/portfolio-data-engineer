@@ -1,43 +1,69 @@
-# portfolio-data-engineer
-Data Engineer - Alternance 
+Portfolio Data Engineer — Candidat Alternance 18 mois (OpenClassrooms)
 
-# Projet 1 – Pipeline de données + Modèle simple
+Bonjour
+Je m’appelle Mariama et je suis actuellement en préparation pour une alternance Data Engineer avec OpenClassrooms.
 
-## Objectif
-Construire un pipeline complet : extraction → nettoyage → stockage → modèle → prédictions.
+Après une formation Data Analyst certifiante, j’ai décidé de me spécialiser dans l’ingénierie des données.
+Ce portfolio présente deux projets simples mais concrets, orientés pipeline de données, dans une logique de progression.
 
-## Pipeline
-1. Extraction des données (dataset Housing Prices)
-2. Transformations (nettoyage)
-3. Chargement dans SQLite
-4. Entraînement d’un modèle (régression linéaire)
-5. Génération d’un fichier de prédictions
+📁 Structure du portfolio
+Projet 1 — Pipeline complet + Modèle simple
 
-## Structure
-- `src/` : scripts Python
-- `data/` : données brutes et transformées
-- `output/` : résultats (prédictions)
-- `diagrams/` : schémas du pipeline
+Objectif :
+Construire un pipeline de données complet :
 
-## Technologies
-Python, Pandas, Scikit-learn, SQLite.
+> extraction
+> transformation
+> entraînement d’un modèle Machine Learning
+> sauvegarde du modèle
+
+Compétences démontrées :
+
+Gestion de données avec Python
+Nettoyage et préparation
+Organisation d’un projet Data Engineer
+Entraînement d’un modèle simple (logistic regression)
+
+👉 Dossier : /projet1_pipeline_modele/
 _____________________________________________________________________________________________________
+Projet 2 — Pipeline d’ingestion CSV simple
 
-# Projet 2 – Pipeline d’ingestion de fichiers CSV
+Objectif :
+Créer un mini pipeline ETL en 3 étapes :
 
-## Objectif
-Créer un pipeline simple : ingestion → validation → transformation → chargement en base.
+> extraction d’un fichier CSV depuis internet
+> transformation (cleaning simple)
+> chargement d’un fichier final
 
-## Pipeline
-1. Récupération de fichiers CSV (données de ventes)
-2. Vérification du schéma
-3. Nettoyage / corrections de types
-4. Chargement dans une base SQLite
+Compétences démontrées :
 
-## Structure
-- `src/` : scripts Python (extract, validate, transform, load)
-- `data/` : raw + cleaned
-- `diagrams/` : schéma du pipeline
+Extraction depuis une URL
+Nettoyage de données
+Structuration d’un process ETL
+Production d’un fichier final propre
 
-## Technologies
-Python, Pandas, SQLite.
+👉 Dossier : /projet2_ingestion_csv/
+
+🛠️ Technologies utilisées
+
+Python
+Pandas
+Scikit-learn
+Git & GitHub
+______________________________________________________________________________________________________
+Organisation de projets Data Engineering (structure en dossiers)
+
+🎯 Objectif professionnel
+
+Mon objectif est de progresser vers le métier de Data Engineer via l’alternance OpenClassrooms.
+Ce portfolio montre mes premières bases et ma motivation à monter rapidement en compétences sur :
+
+les pipelines
+les workflows automatisés
+la qualité et la transformation des données
+le cloud
+les bonnes pratiques d’ingénierie
+______________________________________________________________________________________________________
+📬 Contact
+
+📧 Email : mariadialp@hotmail.com
