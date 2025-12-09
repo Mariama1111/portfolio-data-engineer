@@ -100,7 +100,7 @@ python transform.py
 python model.py
 
 
-Fichiers générés :
+***Fichiers générés :***
 
 data/raw/data.csv
 
@@ -120,7 +120,7 @@ python transform.py
 python load.py
 
 
-Fichiers générés :
+***Fichiers générés :***
 
 data/raw/sales.csv
 
