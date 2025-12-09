@@ -1,0 +1,13 @@
+# === Librairies de base pour manipulation des données ===
+pandas==2.2.0
+numpy==1.26.4
+
+# === Machine Learning (Projet 1) ===
+scikit-learn==1.4.0
+
+# === Utilitaires et structure de projet ===
+joblib==1.3.2
+
+# === Optionnel mais utile pour compatibilité (sécurité, certifs SSL…) ===
+urllib3==2.1.0
+requests==2.31.0
