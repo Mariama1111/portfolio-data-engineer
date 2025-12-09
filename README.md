@@ -1,3 +1,7 @@
+![Status](https://img.shields.io/badge/Portfolio-Data%20Engineer-blue)
+![Python](https://img.shields.io/badge/Python-3.10+-yellow)
+![Projects](https://img.shields.io/badge/Projects-2-green)
+
 ## Portfolio Data Engineer — Candidate Alternance 18 mois (OpenClassrooms)
 
 Bonjour
@@ -75,3 +79,43 @@ ________________________________________________________________________________
 📬 Contact
 
 📧 Email : mariadialp@hotmail.com
+______________________________________________________________________________________________________
+### 🔧 Comment exécuter les projets
+Prérequis
+
+Python 3.10+
+
+Git
+
+pip install -r requirements.txt
+________________________________
+▶️ Exécuter le Projet 1
+cd projet1_pipeline_modele/src
+python extract.py
+python transform.py
+python model.py
+
+
+Fichiers générés :
+
+data/raw/data.csv
+
+data/processed/data_clean.csv
+
+models/model.pkl
+
+__________________________
+▶️ Exécuter le Projet 2
+cd projet2_ingestion_csv/src
+python extract.py
+python transform.py
+python load.py
+
+
+Fichiers générés :
+
+data/raw/sales.csv
+
+data/processed/sales_clean.csv
+
+data/final/final_sales.csv
