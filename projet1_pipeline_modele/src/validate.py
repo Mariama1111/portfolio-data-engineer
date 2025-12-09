@@ -1,7 +1,7 @@
 """ Vérification de l'efficacité du modèle"""
 
 import pandas as pd
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import r2_score, mean_squared_error
 import joblib
 
 def validate_model():
@@ -12,8 +12,11 @@ def validate_model():
     y = df["target"]
 
     preds = model.predict(X)
-    accuracy = accuracy_score(y, preds)
-    print("Accuracy :", accuracy)
+    r2 = r2_score(y, preds)
+    mse = mean_squared_error(y, preds)
+
+    print(f"R2 score: {r2:.3f}")
+    print(f"MSE: {mse:.3f}")
 
 if __name__ == "__main__":
     validate_model()
