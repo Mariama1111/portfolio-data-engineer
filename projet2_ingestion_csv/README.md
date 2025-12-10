@@ -59,6 +59,14 @@ Génère un fichier analytique final.
 python load.py
 ```
 _______________________________
+***Fichiers générés :***
+
+data/raw/sales.csv
+
+data/processed/sales_clean.csv
+
+data/final/final_sales.csv
+_______________________________
 #### 🧹 Améliorations possibles
 
 - Ajout de règles métier (seuils, anomalies)
