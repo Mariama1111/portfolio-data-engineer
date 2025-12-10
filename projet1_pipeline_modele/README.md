@@ -20,7 +20,7 @@ projet1_pipeline_modele/
 │   ├── processed/
 │   └── final/
 │ 
-├── models
+├── models/
 │   └── model.pkl
 │
 └── src/
