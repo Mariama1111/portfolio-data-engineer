@@ -79,6 +79,17 @@ Exporte un fichier final contenant les prédictions.
 python load.py
 ```
 ___________________________________
+***Fichiers générés :***
+
+data/raw/housing.csv
+
+data/processed/housing_clean.csv
+
+models/model.pkl
+
+data/final/predictions.csv
+
+___________________________________
 #### 📊 Performance (exemple)
 - R² : ~0.70 – 0.75
 - MSE : ~22
